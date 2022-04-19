@@ -1,0 +1,1 @@
+aquí irá el panel de la ruleta
