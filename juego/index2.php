@@ -1,5 +1,7 @@
 <title>Ruleta de la suerte</title>
 
+<?php include('contenedor.php');?>
+
 	<div id="jugadores"></div>
 	<div class="form-group col-md-3">
 		<label class="form-label">Letra</label>
@@ -18,4 +20,3 @@
 		<input type="button" id="respuestar" value="Comprobar">
 	</div>
 	</div>
-
