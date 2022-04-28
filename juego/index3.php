@@ -8,7 +8,6 @@
 	
 	<div class="row mb-5 oculto">
 	<div class="col-md-12">
-	<div  id="rcorners"><h3><b style="color:white">Un conocido conociendo conozco</b></h3></div>
 	</div>
 	</div>
 	<br>
@@ -31,3 +30,47 @@
 		<option value="6">6</option>
 		
 		</select>
+
+		</div>
+		<div class="col-md-4 ">
+			<label class="custom-control custom-checkbox">
+				<input type="checkbox"  class="custom-control-input"  id="fallos" value="0"/>
+				<span class="custom-control-label text-dark">Mostrar Fallos</span>
+			</label>
+		</div>
+		<div class="col-md-4 ">
+			<label class="custom-control custom-checkbox">
+				<input type="checkbox"  class="custom-control-input"  id="historicos" value="0"/>
+				<span class="custom-control-label text-dark">Mostrar Histórico</span>
+			</label>
+		</div>
+	</div>
+	<div class="row">
+	<div class="form-group col-md-5">
+		<label class="form-label">Palabra/Frase</label>
+		<input type="text" style="width:70%;" id="palabra" placeholder="Introduzca frase">
+		</div>
+											
+	<div class="col-md-1">
+	<input type="button" id="ir" value="Generar">
+	</div>
+	<div class="form-group col-md-5">
+	<label class="form-label">Pista</label>
+	<input type="text" id="pista"  style="width:80%;" placeholder="Introduzca pista">
+	</div>
+	<div class="col-md-1">
+	<input type="button" id="pistar" value="Aceptar">
+	</div>
+	</div>
+	<div class="row">
+	<div class="form-group col-md-4">
+	<label class="form-label">Puntos</label>
+	<input type="text" id="puntos" value="20">
+	</div>
+	<div class="form-group col-md-4">
+	<label class="form-label">Multiplicador</label>
+	<input type="text" id="mult" value="1">
+	</div>
+	<div>
+		<a class="btn btn-default read-more" style="background:#3399ff;color:white" id="nuevo" >Nuevo Juego</a>		
+	</div>
