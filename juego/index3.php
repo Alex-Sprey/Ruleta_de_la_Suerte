@@ -1,3 +1,7 @@
+<?php 
+include('header.php');
+?>
+
 <title>Ruleta de la suerte</title>
 
 <?php include('contenedor.php');?>
@@ -5,11 +9,7 @@
 <div class="container">
 	<h2>Panel Control Ruleta de la Suerte</h2>	
 	<br>
-	
-	<div class="row mb-5 oculto">
-	<div class="col-md-12">
-	</div>
-	</div>
+</div>
 	<br>
 	   
 	<div class="row oculto" id="jugadores"> </div>

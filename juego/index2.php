@@ -1,3 +1,9 @@
+<?php 
+include('header.php');
+?>
+
+	<link rel="stylesheet" href="css.css">
+
 <title>Ruleta de la suerte</title>
 
 <?php include('contenedor.php');?>
