@@ -124,4 +124,10 @@ include('header.php');
 		</div>
 	</div>
 	
-	
+	<div  id="rule">
+		<iframe id="pts" src="https://wheeldecide.com/e.php?c1=20puntos&c2=10puntos&c3=5punts&time=5" width="400" height="400" scrolling="no" frameborder="0"></iframe>
+	</div>
+
+	<div style="margin:50px 50px 50px 50px;">
+		<a class="btn btn-default read-more" style="background:#3399ff;color:white" href="index2.php">Nuevo Juego</a>		
+	</div>
