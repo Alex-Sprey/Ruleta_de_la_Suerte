@@ -123,6 +123,26 @@ include('header.php');
 			</div>	
 		</div>
 	</div>
+
+	<div>
+		
+		<input type="hidden" id="hidusu">
+		<input type="hidden" id="puntos">
+		<input type="hidden" id="mult">
+		<input type="hidden" id="hidmult">
+		<input type="hidden" id="hidpal">
+		<input type="hidden" id="hidaci">
+		<input type="hidden" id="hidfal">
+		<input type="hidden" id="ckmult">
+		<input type="hidden" id="ckpuntos">
+		<input type="hidden" id="ckpalabra">
+		<input type="hidden" id="ckjg">
+		<input type="hidden" id="ckpista">
+		<input type="hidden" id="ckletra">
+		<input type="hidden" id="ckhist">
+		<input type="hidden" id="ckfallos">
+	
+	</div>
 	
 	<div  id="rule">
 		<iframe id="pts" src="https://wheeldecide.com/e.php?c1=20puntos&c2=10puntos&c3=5punts&time=5" width="400" height="400" scrolling="no" frameborder="0"></iframe>
