@@ -144,7 +144,7 @@ include('header.php');
 	
 	</div>
 	
-	<div  id="rule">
+	<div id="rule">
 		<iframe id="pts" src="https://wheeldecide.com/e.php?c1=20puntos&c2=10puntos&c3=5punts&time=5" width="400" height="400" scrolling="no" frameborder="0"></iframe>
 	</div>
 

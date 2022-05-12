@@ -84,7 +84,6 @@ include('header.php');
 
 </div>
 
-
 <script>
 	
 </script>
