@@ -73,13 +73,18 @@ include('header.php');
 	</div>
 	</div>
 	</div>
-	<input type="hidden" id="hidusu" value="1">
-	<input type="hidden" id="hidmult" >
-	<input type="hidden" id="hidpal" >
-	<input type="hidden" id="hidaci" >
-	<input type="hidden" id="hidfal" >
+	<input type="hidden" id="hidusu">
+	<input type="hidden" id="hidmult">
+	<input type="hidden" id="hidpal">
+	<input type="hidden" id="hidaci">
+	<input type="hidden" id="hidfal" 
 	<div style="margin:50px 0px 0px 0px;">
 		<a class="btn btn-default read-more" style="background:#3399ff;color:white" id="nuevo" >Nuevo Juego</a>		
 	</div>
 
 </div>
+
+
+<script>
+	
+</script>

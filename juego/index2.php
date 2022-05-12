@@ -151,3 +151,7 @@ include('header.php');
 	<div style="margin:50px 50px 50px 50px;">
 		<a class="btn btn-default read-more" style="background:#3399ff;color:white" href="index2.php">Nuevo Juego</a>		
 	</div>
+
+<script>
+
+</script>
