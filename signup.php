@@ -12,9 +12,9 @@
     $stmt->bindParam(':password', $password);
 
     if ($stmt->execute()) {
-      $message = 'Successfully created new user';
+      $message = 'Cuenta creada exitosamente';
     } else {
-      $message = 'Sorry there must have been an issue creating your account';
+      $message = 'Ha ocurrido un error creando la cuenta';
     }
   }
 ?>
@@ -35,14 +35,14 @@
       <p> <?= $message ?></p>
     <?php endif; ?>
 
-    <h1>SignUp</h1>
-    <span>or <a href="login.php">Login</a></span>
+    <h1>Registrarse</h1>
+    <span>o <a href="login.php">Iniciar sesión</a></span>
 
     <form action="signup.php" method="POST">
-      <input name="email" type="text" placeholder="Enter your email">
-      <input name="password" type="password" placeholder="Enter your Password">
-      <input name="confirm_password" type="password" placeholder="Confirm Password">
-      <input type="submit" value="Submit">
+      <input name="email" type="text" placeholder="Introduce un email">
+      <input name="password" type="password" placeholder="Introduce contraseña">
+      <input name="confirm_password" type="password" placeholder="Confirmar contraseña">
+      <input type="submit" value="Confirmar">
     </form>
 
   </body>

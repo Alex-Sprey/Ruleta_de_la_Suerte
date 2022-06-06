@@ -1,3 +1,3 @@
 <header>
-    <a href="/Ruleta_de_la_Suerte">Ruleta de la Suerte</a>
+    <a href="/ruleta_dls">Ruleta de la Suerte</a>
 </header>

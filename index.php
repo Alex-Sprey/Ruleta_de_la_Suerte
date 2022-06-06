@@ -1,8 +1,3 @@
-<?php 
-include('header.php');
-
-?>
-
 <?php
   session_start();
 
@@ -34,16 +29,16 @@ include('header.php');
     <?php require 'partials/header.php' ?>
 
     <?php if(!empty($user)): ?>
-      <br> Welcome. <?= $user['email']; ?>
-      <br>You are Successfully Logged In
+      <br> Bienvenido. <?= $user['email']; ?>
+      <br>Te has registrado exitosamente
       <a href="logout.php">
-        Logout
+        Cerrar sesión
       </a>
     <?php else: ?>
-      <h1>Please Login or SignUp</h1>
+      <h1>Por favor inicia sesión o registrate</h1>
 
-      <a href="login.php">Login</a> or
-      <a href="signup.php">SignUp</a>
+      <a href="login.php">Inicir sesión</a> o
+      <a href="signup.php">Registrarse</a>
     <?php endif; ?>
   </body>
 </html>

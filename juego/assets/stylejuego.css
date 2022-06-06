@@ -1,0 +1,155 @@
+.gradient-border {
+    --borderWidth: 8px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  
+  @keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .player-border {
+      border-color: red blue yellow green;
+    border-width: 0.5px;
+    border-style: inset;
+    
+  }
+  .bordepuntos {
+    border: 2px dashed black;
+    
+  }
+  .bordef {
+    border: 2px inset red;
+    
+  }
+  .borde {
+    border: 2px inset black;
+   background:#3399ff;
+    
+  }
+  .bordevacio {
+    border: 0.5px inset black;
+   background:#3399ff;
+   min-height:100%; 
+   height:100%; 
+  }
+  
+  .form-group {
+      outline: none;
+      padding: 20px;
+      display: block;
+      width: 270px;
+      border-radius: 3px; 
+      border: 1px solid #eee;
+      margin: 20px auto;
+  }
+  
+  .button-group {
+      outline: none;
+      padding: 20px;
+      display: block;
+      width: 270px;
+      margin: 20px auto;
+  
+  }
+  
+  .minimo{
+      background:#3399ff;
+  }
+  table {
+      text-align:center
+  }
+  td {
+      display:inline-block;
+      width: 7.14%;
+  }​
+  
+  div > img {
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .imagen{
+       background-image:url("inter2.jpg");
+       background-size: cover;
+  }
+  
+  .score {
+      font-weight: bold;
+       font-size: xx-large;
+  }	
+  #rcorners {
+    border-radius: 25px;
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    padding: 1.5%;
+    width: 80%;
+    height: 20%;
+    
+  margin: auto !important;
+  
+  text-align: center !important;
+  }
+  
+  #rule {
+    border-radius: 25px;
+    padding: 1.5%;
+    width: 80%;
+    height: 20%;
+    
+  margin: auto !important;
+  
+  text-align: center !important;
+  }
+  .card-header {
+  align-items: center !important;
+  text-align: center !important;
+  margin-top: 10%;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .card-body {
+  margin: auto !important;
+  
+  text-align: center !important;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  .oculto{
+      display:none;
+  }

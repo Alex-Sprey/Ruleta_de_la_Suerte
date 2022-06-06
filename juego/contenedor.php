@@ -22,10 +22,10 @@
           </ul>
 
           <ul class="nav navbar-nav">
-            <li id="control"><a href="/Ruleta_de_la_Suerte/logout.php">Cerrar sesión</a></li>
+            <li id="control"><a href="/ruleta_dls/logout.php">Cerrar sesión</a></li>
           </ul>
          
-        </div>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
 	

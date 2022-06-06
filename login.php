@@ -19,7 +19,7 @@
       $_SESSION['user_id'] = $results['id'];
       header("Location: /Ruleta_de_la_Suerte/juego/index2.php");
     } else {
-      $message = 'Sorry, those credentials do not match';
+      $message = 'Disculpa, las credenciales no coinciden';
     }
   }
 
@@ -40,13 +40,13 @@
       <p> <?= $message ?></p>
     <?php endif; ?>
 
-    <h1>Login</h1>
-    <span>or <a href="signup.php">SignUp</a></span>
+    <h1>Iniciar sesión</h1>
+    <span>o <a href="signup.php">Registrarse</a></span>
 
     <form action="login.php" method="POST">
-      <input name="email" type="text" placeholder="Enter your email">
-      <input name="password" type="password" placeholder="Enter your Password">
-      <input type="submit" value="Submit">
+      <input name="email" type="text" placeholder="Introduzca su email">
+      <input name="password" type="password" placeholder="Introduzca su contraseña">
+      <input type="submit" value="Confirmar">
     </form>
   </body>
 </html>
